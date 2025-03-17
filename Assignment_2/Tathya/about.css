@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #d9534f;
+    color: white;
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+.menu-list, .blog-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-item, .blog-post {
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+}
